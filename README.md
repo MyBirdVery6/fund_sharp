@@ -23,3 +23,13 @@ python fund_sharp.py 110027
 * 测试环境为Python 2.7
 * 执行过程中会提示 "PhantomJS has been deprecated", 请忽略.
 * 基金代码仅为6位数字, 不可少于6位或包含字母.
+* 如果显示找不到 bs4 模块请自行安装 pip3 install beautifulsoup4 ,依然不行则手动下载到python2.7 根目录并 python setp.py install 安装
+
+* Python3.8 环境
+* 如果报错，请检查是否已经安装以下模块,若不全,请手动安装
+* pip install beautifulsoup4
+* pip install selenium
+* pip install --upgrade numpy
+
+
+
